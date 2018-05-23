@@ -1,5 +1,5 @@
 <?php 
-	include("emitirxml.php");
+include("emitirxml.php");
 ?>
 <!DOCTYPE html >
   <head>
@@ -111,7 +111,7 @@
       function doNothing() {}
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzKJmQkpzAYMLTVEiJzXjmxyKjE5sZWhw&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initMap">
     </script>
   </body>
 </html>
