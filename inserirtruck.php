@@ -10,9 +10,9 @@ $address = $_POST['address'];
 $lat = $_POST['lat'];
 $lng = $_POST['lng'];
 
-$type = 'Bar';
+$type = 'bar';
 if ($_POST['type'] == 'R'){
-	$type = 'Restaurant';
+	$type = 'restaurant';
 }
 
 $cmdinsert = $conexao->prepare("insert into markers (name, address, lat, lng, type) values (:name, :address, :lat, :lng, :type)");

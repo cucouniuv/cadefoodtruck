@@ -1,5 +1,5 @@
 <?php 
-	include("emitirxml.php");
+	include_once("emitirxml.php");
 ?>
 <!DOCTYPE html >
   <head>
@@ -23,14 +23,14 @@
   <body>
     <div id="map"></div>
     <script>
-		var customLabel = {
-			restaurant: {
-				label: 'R'
-			},
-			bar: {
-				label: 'B'
-			}
-		};
+    		var customLabel = {
+    			restaurant: {
+    				label: 'R'
+    			},
+    			bar: {
+    				label: 'B'
+    			}
+    		};
 
         function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
